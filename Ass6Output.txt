@@ -1,0 +1,16 @@
+Square: Count = 1, Side = 1
+Circle: Count = 2, Radius = 5
+
+COMPOSITE START:
+Square: Count = 3, Side = 2
+Circle: Count = 4, Radius = 6
+COMPOSITE END
+
+Square: Count = 5, Side = 3
+
+COMPOSITE START:
+Circle: Count = 6, Radius = 7
+COMPOSITE END
+
+Circle: Count = 7, Radius = 8
+Square: Count = 8, Side = 4

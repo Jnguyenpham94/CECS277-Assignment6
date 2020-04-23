@@ -1,0 +1,11 @@
+Singleton and Composite Design Patterns
+
+We will discuss this assignment in class.
+
+I have given you Main, the input and the desired output.
+
+You must write and turn in the following classes:   Square, Circle, Shape, SingletonCounter, ShapeComponent and Shape Composite.
+
+Your output must match my output.
+
+Your classes must be accurately described by the provided UML.
