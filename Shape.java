@@ -1,5 +1,6 @@
 
 
-public class Shape {
+public abstract class Shape extends ShapeComponent
+{
 
 }
