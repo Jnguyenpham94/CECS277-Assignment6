@@ -11,10 +11,10 @@ public class Square extends Shape{
 
 	@Override
 	public String display() {
-		String firstPart = " Square: Count = " + super.getCounter();
+		String firstPart = "Square: Count = " + super.getCounter();
 		String other =  ", Side = " + mSide;
 		String finished = firstPart + other;
-		return finish;
+		return finished;
 	}
 
 	private int mSide;

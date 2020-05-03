@@ -12,7 +12,10 @@ public class Circle extends Shape{
     @Override
     public String display() {
     
-        return System.out.println("Circle: Count = " + super.getCounter() + ", Radius = " + mRadius);
+        String first = "Circle: Count = " + super.getCounter(); 
+        String second = ",Radius = " + mRadius;
+        String finalString = first + second;
+        return finalString;
     }
 
     private int mRadius;

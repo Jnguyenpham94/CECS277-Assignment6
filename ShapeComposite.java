@@ -6,10 +6,12 @@ public class ShapeComposite extends ShapeComponent {
     public String display() 
     {
         String first = "COMPOSITE START:";
-    
+        
         for(ShapeComponent s : mList) s.display();
+        
         String second = "COMPOSITE END"; 
 
+       
         
     }
 
