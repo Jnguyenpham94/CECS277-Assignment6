@@ -5,13 +5,16 @@ public class ShapeComposite extends ShapeComponent {
     @Override
     public String display() 
     {
-        String first = "COMPOSITE START:";
+        String beginning = "\nCOMPOSITE START: \n" ;
         
-        for(ShapeComponent s : mList) s.display();
-        
-        String second = "COMPOSITE END"; 
+        for(ShapeComponent s : mList) {
+            beginning += s.display() + "\n";
+        }
 
-       
+       beginning += "COMPOSITE END\n";
+
+       return beginning;
+
         
     }
 
