@@ -7,12 +7,11 @@ public class Circle extends Shape{
     {
         super(counter);
         this.mRadius = radius;
-
 	}
 
     @Override
-    public String display() {
-    
+    public String display() 
+    {
         String first = "Circle: Count = " + super.getCounter(); 
         String second = ", Radius = " + mRadius;
         String finalString = first + second;

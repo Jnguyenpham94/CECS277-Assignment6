@@ -3,10 +3,6 @@
 //Jonathan Nguyen-Pham, 016297682 
 public class SingletonCounter {
 
-	private SingletonCounter(){
-		
-	}
-
 	public static SingletonCounter getInstance() 
 	{
 		if(theInstance == null) theInstance = new SingletonCounter();

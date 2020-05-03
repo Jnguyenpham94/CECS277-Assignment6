@@ -16,9 +16,7 @@ public class ShapeComposite extends ShapeComponent {
 
        beginning += "COMPOSITE END\n";
 
-       return beginning;
-
-        
+       return beginning; 
     }
 
     public void add(ShapeComponent c) 
