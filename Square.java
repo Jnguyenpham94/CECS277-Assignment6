@@ -2,9 +2,10 @@
 
 public class Square extends Shape{
 
-	public Square(Object counter, int i) 
-	{
-		
+	public Square(int counter, int side) {
+
+	super(counter); 
+	this.mSide = side;
 	}
 
 	@Override
@@ -12,5 +13,7 @@ public class Square extends Shape{
 		// TODO Auto-generated method stub
 		return null;
 	}
+
+	private int mSide;
 
 }

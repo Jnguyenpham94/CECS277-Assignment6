@@ -2,16 +2,21 @@
 
 public class SingletonCounter {
 
+	private SingletonCounter(){
+		
+	}
+
 	public static SingletonCounter getInstance() 
 	{
-		return null;
+		if(theInstance == null) theInstance = new SingletonCounter();
+		return theInstance;
 	}
 
-	public Object getCounter() 
+	public int getCounter() 
 	{
-		return null;
+		return mCounter++;
 	}
 
-
-
+	private static int mCounter = 1; 
+	private static SingletonCounter theInstance;
 }

@@ -2,9 +2,11 @@
 
 public class Circle extends Shape{
 
-    public Circle(Object counter, int i) 
+    public Circle(int counter, int radius) 
     {
-        
+        super(counter);
+        this.mRadius = radius;
+
 	}
 
     @Override
@@ -13,4 +15,5 @@ public class Circle extends Shape{
         return null;
     }
 
+    private int mRadius;
 }
