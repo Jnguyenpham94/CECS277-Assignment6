@@ -3,10 +3,14 @@ import java.util.ArrayList;
 public class ShapeComposite extends ShapeComponent {
 
     @Override
-    public char[] display() 
+    public String display() 
     {
-        // TODO Auto-generated method stub
-        return null;
+        String first = "COMPOSITE START:";
+    
+        for(ShapeComponent s : mList) s.display();
+        String second = "COMPOSITE END"; 
+
+        
     }
 
     public void add(ShapeComponent c) 

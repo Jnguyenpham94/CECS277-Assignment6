@@ -5,13 +5,16 @@ public class Square extends Shape{
 	public Square(int counter, int side) {
 
 	super(counter); 
-	this.mSide = side;
+	mSide = side;
+
 	}
 
 	@Override
-	public char[] display() {
-		// TODO Auto-generated method stub
-		return null;
+	public String display() {
+		String firstPart = " Square: Count = " + super.getCounter();
+		String other =  ", Side = " + mSide;
+		String finished = firstPart + other;
+		return finish;
 	}
 
 	private int mSide;

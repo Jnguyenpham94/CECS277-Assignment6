@@ -2,6 +2,6 @@
 
 public abstract class ShapeComponent {
 
-    public abstract char[] display();
+    public abstract String display();
 
 }

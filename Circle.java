@@ -10,9 +10,9 @@ public class Circle extends Shape{
 	}
 
     @Override
-    public char[] display() {
-        // TODO Auto-generated method stub
-        return null;
+    public String display() {
+    
+        return System.out.println("Circle: Count = " + super.getCounter() + ", Radius = " + mRadius);
     }
 
     private int mRadius;
