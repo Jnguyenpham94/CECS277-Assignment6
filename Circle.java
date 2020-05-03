@@ -13,7 +13,7 @@ public class Circle extends Shape{
     public String display() {
     
         String first = "Circle: Count = " + super.getCounter(); 
-        String second = ",Radius = " + mRadius;
+        String second = ", Radius = " + mRadius;
         String finalString = first + second;
         return finalString;
     }
