@@ -1,5 +1,6 @@
-
-
+//Assignment 6
+//Kenny Ta 015020302
+//Jonathan Nguyen-Pham, 016297682 
 public class Circle extends Shape{
 
     public Circle(int counter, int radius) 
@@ -13,7 +14,7 @@ public class Circle extends Shape{
     public String display() {
     
         String first = "Circle: Count = " + super.getCounter(); 
-        String second = ",Radius = " + mRadius;
+        String second = ", Radius = " + mRadius;
         String finalString = first + second;
         return finalString;
     }
