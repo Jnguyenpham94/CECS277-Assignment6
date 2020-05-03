@@ -4,6 +4,7 @@ public class Square extends Shape{
 
 	public Square(Object counter, int i) 
 	{
+		
 	}
 
 	@Override

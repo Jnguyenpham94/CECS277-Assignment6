@@ -4,6 +4,7 @@ public class Circle extends Shape{
 
     public Circle(Object counter, int i) 
     {
+        
 	}
 
     @Override

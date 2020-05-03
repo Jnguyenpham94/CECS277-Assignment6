@@ -1,6 +1,6 @@
+import java.util.ArrayList;
 
-
-public class ShapeComposite extends ShapeComponent{
+public class ShapeComposite extends ShapeComponent {
 
     @Override
     public char[] display() 
@@ -11,8 +11,9 @@ public class ShapeComposite extends ShapeComponent{
 
     public void add(ShapeComponent c) 
     {
-
+        mList.add(c);
 	}
 
+    private ArrayList<ShapeComponent> mList = new ArrayList<ShapeComponent>();
 
 }
